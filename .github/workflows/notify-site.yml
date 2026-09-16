@@ -1,0 +1,22 @@
+# Tells the website (PaulHenryDeveloper/DromorCraft-site) to rebuild whenever a
+# release is published here, so dromorcraft.com shows the new version right away.
+#
+# Required secret: SITE_DISPATCH_TOKEN — a fine-grained personal access token
+# with "Contents: Read and write" on the DromorCraft-site repository.
+name: Notify site
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger site deploy
+        env:
+          GH_TOKEN: ${{ secrets.SITE_DISPATCH_TOKEN }}
+        run: |
+          gh api repos/PaulHenryDeveloper/DromorCraft-site/dispatches \
+            -f event_type=release-published \
+            -F 'client_payload[tag]=${{ github.event.release.tag_name }}'
