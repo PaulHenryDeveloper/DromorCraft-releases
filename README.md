@@ -43,8 +43,9 @@ A versão mais recente está sempre na [página de releases](https://github.com/
 
 | Plataforma | Arquivo | Como instalar |
 |---|---|---|
-| **Windows 10 / 11** (x64) | `DromorCraft_<versão>_x64-setup.exe` | Execute o instalador. Precisa do [WebView2](https://developer.microsoft.com/microsoft-edge/webview2/), que já vem no Windows 11 e na maioria dos Windows 10 atualizados. |
-| **Linux** (x86_64) | `DromorCraft_<versão>_amd64.AppImage` | `chmod +x DromorCraft_*.AppImage && ./DromorCraft_*.AppImage`. Requer `webkit2gtk`. |
+| **Windows 10 / 11** (x64) | `DromorCraft.Launcher_<versão>_x64-setup.exe` | Execute o instalador. Precisa do [WebView2](https://developer.microsoft.com/microsoft-edge/webview2/), que já vem no Windows 11 e na maioria dos Windows 10 atualizados. |
+| **Linux** (x86_64) | `DromorCraft.Launcher_<versão>_amd64.AppImage` | `chmod +x DromorCraft.Launcher_*.AppImage && ./DromorCraft.Launcher_*.AppImage`. Requer `webkit2gtk`. |
+| **Debian / Ubuntu** (x86_64) | `DromorCraft.Launcher_<versão>_amd64.deb` | `sudo apt install ./DromorCraft.Launcher_*.deb` |
 
 Cada arquivo vem acompanhado de um `.sig`: a assinatura que o launcher confere antes de
 aplicar qualquer atualização.
