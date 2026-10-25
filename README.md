@@ -180,20 +180,21 @@ fechar a sessão, para não derrubá-la no meio.
 Lá dentro ficam as instâncias, as bibliotecas e assets compartilhados, os runtimes Java,
 os backups de mundos e os logs. Se o launcher abrir numa tela de erro, ela diz por quê,
 e o mesmo texto está em `nao-iniciou.txt` nessa pasta — que é onde olhar se a janela nem
-chegar a aparecer. Cada execução também deixa um arquivo em `logs/`; leve esse arquivo ao
-[Discord](https://discord.gg/dromorcraft) ou abra uma
-[issue](https://github.com/PaulHenryDeveloper/DromorCraft-releases/issues) e a resposta
-chega mais rápido.
+chegar a aparecer. Cada execução também deixa um arquivo em `logs/`; abra um tópico em
+[Launcher bugs](https://forum.dromorcraft.com/c/suporte/bugs), no fórum, com esse arquivo
+ou leve-o ao [Discord](https://discord.gg/dromorcraft), e a resposta chega mais rápido.
 
 ## Comunidade
 
 | Canal | Onde |
 |---|---|
 | Site | [dromorcraft.com](https://dromorcraft.com) |
+| Fórum | [forum.dromorcraft.com](https://forum.dromorcraft.com) |
 | Discord | [discord.gg/dromorcraft](https://discord.gg/dromorcraft) |
 | Telegram | [t.me/dromorcraft](https://t.me/dromorcraft) |
 | WhatsApp | [dromorcraft.com/whatsapp](https://dromorcraft.com/whatsapp) |
-| Bugs e sugestões | [Issues deste repositório](https://github.com/PaulHenryDeveloper/DromorCraft-releases/issues) |
+| Bugs | [Launcher bugs, no fórum](https://forum.dromorcraft.com/c/suporte/bugs) |
+| Sugestões | [Sugestões, no fórum](https://forum.dromorcraft.com/c/sugestoes) |
 
 ## Desenvolvedor
 

@@ -1,0 +1,13 @@
+# Este repositório é só o feed de releases: bugs, ajuda e sugestões ficam no fórum
+# (forum.dromorcraft.com), que usa a mesma conta do dromorcraft.com.
+blank_issues_enabled: false
+contact_links:
+  - name: Reportar um problema
+    url: https://forum.dromorcraft.com/c/suporte/bugs
+    about: Abra um tópico em Launcher bugs com o arquivo de logs/ (ou nao-iniciou.txt). Entre com a conta do dromorcraft.com ou com a Microsoft.
+  - name: Pedir ajuda
+    url: https://forum.dromorcraft.com/c/suporte/ajuda
+    about: Instalação, contas, Java, mods e loaders.
+  - name: Sugerir uma ideia
+    url: https://forum.dromorcraft.com/c/sugestoes
+    about: Ideias para o launcher.
